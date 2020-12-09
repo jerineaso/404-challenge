@@ -9,11 +9,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href=" https://jerineaso.github.io/404-page-challenge/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/jerineaso/404-page-challenge">
       Solution
     </a>
     <span> | </span>
@@ -30,12 +30,13 @@
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
+- [Contact](#contact)
 
 <!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](screenshot\404.png)
+![screenshot](https://github.com/jerineaso/404-page-challenge/blob/main/screenshot/404.png)
 
 
 
@@ -52,3 +53,7 @@
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
 
+## Contact
+
+- Website [Portfolio](https://jerineaso.github.io/portfolio-bootstrap/)
+- GitHub [@jerineaso](https://github.com/jerineaso)
