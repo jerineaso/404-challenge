@@ -1,0 +1,136 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+
+header{
+    padding: 10px 30px;
+}
+
+header nav p{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/* Main Section  */
+
+main{
+    padding-left: 30px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.left{
+    /* float: left; */
+    width: 45%;
+    /* box-sizing: border-box; */
+}
+
+#scare{
+    max-height: 414px;
+    max-width: 539px;
+}
+
+.right{
+    /* float: left; */
+    width: 55%;
+    /* box-sizing: border-box; */
+    height: 75vh;
+}
+
+.right h1{
+    font-family: 'Space Mono', monospace;
+    font-size: 5vw;
+    font-weight: 700;
+}
+
+.right p{
+    font-family: 'Space Mono', monospace;
+    font-size: 2vw;
+    font-weight: 400;
+    max-width: 60%;
+    color: #4F4F4F;
+    line-height: 35px;
+}
+
+.btn{
+    background-color: #333;
+    color: #fff;
+    padding: 15px 32px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* Footer Section */
+
+footer{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+}
+
+/* Reponsive */
+
+@media only screen and (max-width : 992px){
+    /* Main Section */
+    #scare{
+        max-width: 100%;
+    }
+
+    .right h1{
+        font-size: 5vw;
+        max-width: 100%;
+    }
+
+    .right p{
+        max-width: 70%;
+    }
+}
+
+@media only screen and (max-width : 600px){
+    main{
+        flex-direction: column;
+    }
+
+    .left{
+        width: 100%;
+    }
+
+    .right{
+        width: 100%;
+        height: 40vh;
+    }
+
+    .right h1{
+        font-size: 6.5vw;
+        padding-left: 20px;
+    }
+
+    .right p{
+        font-size: 3vw;
+        padding-left: 20px;
+        max-width: 80%;
+    }
+
+    #scare{
+        max-width: 60%;
+        display: table;
+        margin: 0 auto;
+    }
+
+    .btn{
+        padding: 15px 25px;
+        margin-left: 20px;
+    }
+
+    footer{
+        margin-top: 0;
+    }
+
+}
