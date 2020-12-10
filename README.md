@@ -9,11 +9,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://jerineaso.github.io/DevChallenges/">
+    <a href=" https://jerineaso.github.io/404-challenge/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/jerineaso/DevChallenges">
+    <a href="https://github.com/jerineaso/404-challenge">
       Solution
     </a>
     <span> | </span>
