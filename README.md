@@ -9,7 +9,7 @@
 
 <div align="center">
   <h3>
-    <a href=" https://jerineaso.github.io/404-challenge/">
+    <a href="https://jerineaso.github.io/404-challenge/">
       Demo
     </a>
     <span> | </span>
