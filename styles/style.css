@@ -46,6 +46,7 @@ main{
     font-family: 'Space Mono', monospace;
     font-size: 5vw;
     font-weight: 700;
+    max-width: 100%;
 }
 
 .right p{
@@ -78,22 +79,6 @@ footer{
 /* Reponsive */
 
 @media only screen and (max-width : 992px){
-    /* Main Section */
-    #scare{
-        max-width: 100%;
-    }
-
-    .right h1{
-        font-size: 5vw;
-        max-width: 100%;
-    }
-
-    .right p{
-        max-width: 70%;
-    }
-}
-
-@media only screen and (max-width : 600px){
     main{
         flex-direction: column;
     }
@@ -106,6 +91,31 @@ footer{
         width: 100%;
         height: 40vh;
     }
+
+    .right h1{
+        font-size: 5vw;
+        padding-left: 20px;
+    }
+
+    .right p{
+        font-size: 2vw;
+        padding-left: 20px;
+        max-width: 80%;
+    }
+
+    #scare{
+        max-width: 40%;
+        display: table;
+        margin: 0 auto;
+    }
+
+    .btn{
+        padding: 15px 25px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width : 600px){
 
     .right h1{
         font-size: 6.5vw;

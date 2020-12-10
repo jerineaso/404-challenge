@@ -9,7 +9,7 @@
 
 <div align="center">
   <h3>
-    <a href=" https://jerineaso.github.io/404-page-challenge/">
+    <a href="https://jerineaso.github.io/404-page-challenge/">
       Demo
     </a>
     <span> | </span>
@@ -35,9 +35,7 @@
 <!-- OVERVIEW -->
 
 ## Overview
-
-![screenshot](https://github.com/jerineaso/404-page-challenge/blob/main/screenshot/404.png)
-
+![alt text](https://github.com/jerineaso/404-page-challenge/blob/main/screenshot/404.png)
 
 
 ### Built With
